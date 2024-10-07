@@ -1,7 +1,7 @@
 package com.sphenon.basics.actor;
 
 /****************************************************************************
-  Copyright 2001-2018 Sphenon GmbH
+  Copyright 2001-2024 Sphenon GmbH
 
   Licensed under the Apache License, Version 2.0 (the "License"); you may not
   use this file except in compliance with the License. You may obtain a copy
@@ -24,7 +24,7 @@ import com.sphenon.basics.message.*;
  * within a company's order processing database.
  */
 public interface ActorWithProperties {
-    public String getProperty(CallContext context, String name, String defaul_value);
-    public int getProperty(CallContext context, String name, int defaul_value);
-    public boolean getProperty(CallContext context, String name, boolean defaul_value);
+    public String  getProperty(CallContext context, String name, String  default_value);
+    public int     getProperty(CallContext context, String name, int     default_value);
+    public boolean getProperty(CallContext context, String name, boolean default_value);
 }
